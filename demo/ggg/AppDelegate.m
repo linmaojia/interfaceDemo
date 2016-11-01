@@ -25,7 +25,7 @@
     [self.window makeKeyAndVisible];
     
     //导航控制器
-    YZGRootNavigationController *nav = [[YZGRootNavigationController alloc] initWithRootViewController:[KViewController new]];
+    YZGRootNavigationController *nav = [[YZGRootNavigationController alloc] initWithRootViewController:[ViewController new]];
     self.window.rootViewController = nav;
     
     
